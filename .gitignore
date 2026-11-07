@@ -1,0 +1,36 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Test / tooling
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+.mypy_cache/
+
+# Data & model artifacts
+data/*.csv
+!data/.gitkeep
+*.pkl
+*.h5
+models/*.joblib
+models/*.pkl
+
+# Notebooks and local reports
+.ipynb_checkpoints/
+*.log
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+config.bat
+node_modules
